@@ -2,8 +2,8 @@
 <html>
   <h1>Today</h1>
   <% time = Time.new %>
-  <% formatted = time.strftime("%A, %B %d, ") %>
+  <% formatted = time.strftime("%A, %B %d, %Y") %>
   <p>
-    The date is <
+    The date is <%= formatted %>
   </p>
 </html>
