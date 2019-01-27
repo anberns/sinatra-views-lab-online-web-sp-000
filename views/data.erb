@@ -1,7 +1,9 @@
+<% require DateTime %>
+
 <!DOCTYPE html>
 <html>
   <h1>Today</h1>
-  <% require DateTime %>
+  
   <% time = Time.new %>
   <% formatted = time.strftime("%A, %B %d, %Y") %>
   <p>
